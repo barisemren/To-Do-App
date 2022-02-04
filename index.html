@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1 id="header">To Do List</h1>
+        <h4 id="header">Write and Click "Add" Button to Add Something</h4>
+        <h4 id="header">Double Click the Item that You Want to Remove</h4>
+    </div>
+    <form id="form">
+        <input type="text" id="input" placeholder="Add Something" onkeydown="return (event.keyCode != 13);"/>
+        <div id="button">Add</div>
+      </form>
+      <ol id="content"></ol>
+</body>
+</html>
